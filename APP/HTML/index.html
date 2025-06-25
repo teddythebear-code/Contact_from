@@ -6,7 +6,7 @@
   <title>Contact from</title>
   <link rel="stylesheet" href="../CSS/style.css">
     
-    <!--default code from EmailJS (this will allow the from to accept in your email address -->
+    <!--default code from EmailJS (this will allow the from to accept in your email address) -->
 <script type="text/javascript"
         src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
 </script>
@@ -24,19 +24,20 @@
   
 <section class = "Contact_section">
 
-
 <div class = "contact_us">
 <h1>Contact us</h1>
 
-<!-- Contact us pages from -->
 
-<div class = "contact_from">
-<from>
+</div>
+
+<!-- Contact us pages form -->
+<div class = "contact_form">
+
+<form>
 
 <!--the first name input & label-->
 <label for = "firstname">Firstname:</label>
 <input type = "text" id = "firstname" placeholder= "firstname" name= "firstname" require ></input>
-</from>
 
 <br>
 
@@ -47,14 +48,15 @@
 <br>
 
 <!--the message input & label-->
-<label type = "message"for = "message " >message:</label>
+<label type = "message" for = "message " >message:</label>
 <textarea id = "message " placeholder= "message " name= "message " require ></textarea>
-</from>
+
 
 <br>
 <!--submit button -->
-<button type = "button " from= "submit" onchick = "sendemailjs" >submit</button>
+<button type = "button " from= "submit" onclick = "sendemailjs" >submit</button>
 
+</form>
 </div>
 </section>
   
